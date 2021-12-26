@@ -46,7 +46,7 @@ app.post('/authentication', async (req, res) => {
 })
 
 
-/* Site API to create ,update and insert */
+/* Site API to create ,update and insert s*/
 
 app.get('/site', async (req, res) => {
     pool.query(`select * from Site`, function (error, results, fields) {
